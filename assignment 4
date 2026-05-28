@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html Lang="en">
+
+
+<head>
+      <title>Assignment 4 - Making content</title>
+      <meta Charset="utf-8">
+</head>
+
+<body>
+    <p> this is a p section </p>
+
+<!-- I am going to run stuff - commenting out-->
+
+    <header>
+
+        <h1>Main Title></h1>
+
+    </header>
+
+    <section>
+
+      <h1> Section Title</h1>
+
+    </section>
+
+    <section>
+
+        <h1> List demonstration</h1>
+
+        <ol>  <!-- Ordered list -->
+
+            <li> First item to show up on my ordered list</li> <!-- You must have items in your list -->
+
+            <li> Second item</li>
+
+            <li> Third item</li>
+
+        </ol>
+
+        <ul> <!-- Unordered list -->
+
+            <li> First item to show up on my unordered list</li>
+
+            <li> Second item</li>
+
+            <li> Third item</li>
+
+        </ul>
+
+        <h2> Nested list</h2>
+
+        <ol>
+
+            <li> First parent item</li>
+
+            <li> Second item
+
+                <ul>
+
+                    <li> First child item</li>
+
+                    <li> Second item</li>
+
+                </ul>
+
+            </li>
+
+            <li> second parentitem</li>
+
+            <li> Third parent item</li>
+
+        </ol>
+
+    </section>
+
+    <footer>
+
+ 
+
+ 
+
+        
+
+    </footer>
+
+  
+
+ 
+
+ 
+
+</body>
+
+</html>
