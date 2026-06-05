@@ -1,0 +1,12 @@
+project/images/
+
+project/
+├── HTML/
+│     └── index.html
+├── CSS/
+│     └── assignment_8_b.css
+└── images/
+      └── drosera74-nature-9971558.jpg   ← mice image
+      └── hot-dog.jpeg                   ← hot dog image
+
+}

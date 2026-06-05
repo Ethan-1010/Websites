@@ -1,0 +1,48 @@
+body {
+    background-color: ivory;
+    font-family: "Big Caslon", "Cormorant Garamond", serif;
+}
+
+p {
+    color: seagreen;
+    font-weight: lighter;
+}
+
+.paragraph-style {
+    color: #5C1E51;
+    font-family: "Big Caslon", "Cormorant Garamond", serif;
+}
+
+header p {
+    font-style: italic;
+    text-align: justify;
+}
+
+section p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline overline;
+}
+
+.banner {
+    height: 350px;
+
+    /* Two images: mice on the left, hot dogs on the right */
+    background-image: url("hot-dog.jpeg");
+
+    /* Make both images fill their half of the banner */
+    background-size: 50% 100%, 50% 100%;
+
+    /* Position mice on left, hot dogs on right */
+    background-position: left, right;
+
+    /* Prevent repeating */
+    background-repeat: repeat;
+}

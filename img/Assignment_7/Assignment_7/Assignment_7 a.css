@@ -1,0 +1,36 @@
+p {
+    color:seagreen;
+}
+
+body {
+    background-color: ivory;
+    font-family: "Big Caslon", "Cormorant Garamond", serif;
+}
+
+.paragraph-style {
+    color:#5C1E51;
+    font-family: "Big Caslon", "Cormorant Garamond", serif;
+}
+   
+/*
+placeholder comment
+*/
+p {
+    font-weight: lighter;
+}
+
+header p {
+    font-style: italic;
+    text-align: justify;
+}
+section p {
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline overline;
+}

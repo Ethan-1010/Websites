@@ -1,0 +1,91 @@
+
+/* Website Styles */
+/* This is commenting out, I won't run */
+
+/* 
+Shortcuts for Commenting out:
+Ctrl + / (for pc)
+Cmd + / (for mac)
+*/
+
+/*
+https://www.w3schools.com/w3css/w3css_colors.asp
+*/
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900; /* accepts numbers from 100 to 900, in increments of 100 */
+    font-style: italic;
+}
+
+/* You can add style to multiple elements at once */
+h1, h2, h3 {
+    color: tomato;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+h5 {
+    text-align: right;
+}
+
+h6 {
+    text-align: center;
+}
+
+* {
+  font-size: 100%;
+}
+
+p {
+    color: pink;
+    line-height: 2;
+    text-align: justify; /* This makes it so the paragraph takes the whole width of the section */
+    text-justify: inter-word;
+}
+
+footer {
+    color: red;
+}
+
+footer p {
+    font-size: 16px; /* You can see that this targets only the paragraphs that are in the footer */
+}
+
+
+section ol li {
+    color: aqua; /* more specific than section li, so it takes precedent -> example of specificity */
+}
+
+section li {
+    color: khaki;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+/*element:state {
+}*/
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: maroon;
+}
